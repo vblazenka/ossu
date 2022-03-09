@@ -7,3 +7,7 @@ Learn how to design compound data definitions to represent information that cons
 - read and write define-struct definitions
 - design functions that consume and/or produce compound data
 - design world programs that use compound world state
+
+## Homework TODO
+- Baloon throwing
+- Flowers
