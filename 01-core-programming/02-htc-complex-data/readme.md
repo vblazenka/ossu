@@ -42,6 +42,13 @@ We'll learn local expressions which are new kind of expressions that makes it po
 - Be able to use local to encapsulate function definitions.
 - Be able to use local to avoid redundant computation.
 
+### Evalulation rules for local expression
+- rename all definitions and references to those definitions
+- lift renamed definitions to top level (global scope)
+- replace entire local expression with its body, with references renamed
+
+### Encapsulation
+
 ## 9. Abstraction
 
 ## 10a. Generative Recursion
