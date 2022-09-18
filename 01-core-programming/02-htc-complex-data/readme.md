@@ -27,3 +27,27 @@ By using a cross product of type comments table, we are simplifying at **model l
 
 That simplification helps us reason about the code even before we start writing it. This is what
 good engineers are able to do.
+
+## 8b. Local
+
+Technique for improving the strucutre of code. Good programmers take time to improve the structure of their code once it is written.
+
+We'll learn local expressions which are new kind of expressions that makes it possible to write definitions that are only visible withing the local expression.
+
+### Learning goals
+
+- Be able to write well-formed local expressions.
+- Be able to diagram lexical scoping on top of expressions using local.
+- Be able to hand-evaluate local expressions.
+- Be able to use local to encapsulate function definitions.
+- Be able to use local to avoid redundant computation.
+
+## 9. Abstraction
+
+## 10a. Generative Recursion
+
+## 10b. Search
+
+## 11. Accumulators
+
+## 12. Graphs
