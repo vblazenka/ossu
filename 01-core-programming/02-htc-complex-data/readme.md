@@ -67,6 +67,28 @@ the system and it also helps separate domain knowledge.
 - Be able to identify a function which would benefit from using a built-in abstract function
 - Be able to use built-in abstract functions
 
+### Steps to follow
+- identify two highly repetitive expressions
+- introduce a new function:
+    - around one copy of repetitive code
+    - add more general name
+    - add parameter for varying position
+    - use parameter for varying position
+- replace specific expressions with:
+  - calls to abstract function
+  - pass varying value
+
+We design abs. funcs. in the opposite order of the normal HtDF recipe. We always do the easiest thing first, and with the
+abstract function design processes getting the working func. definition is easiest thing to do.
+
+Extending on the steps to follow above, we append few more steps:
+- adapt tests from original functions to new abs. func.
+  - test variability
+  - test behaviour of abs. func. beyond 
+- develop appropriate abstract purpose based on the examples
+- develop appropriate signature for the abs. func.; in many cases the signature will include type parameters
+- rewrite the body of the original func. to call the abs. func.
+
 ## 10a. Generative Recursion
 
 ## 10b. Search
