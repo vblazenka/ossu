@@ -51,6 +51,22 @@ We'll learn local expressions which are new kind of expressions that makes it po
 
 ## 9. Abstraction
 
+Technique for improving the structure of the code. Technique for taking highly repretitive code and refactoring out the
+identical parts to leave behind a shared helper and just the different parts of the original code. Shared helper is called
+an abstract function because it is more general, less detailed, than the original code.
+
+Abstraction is used for managing complexity in programs. Can make programs smaller if abstract functions are used across
+the system and it also helps separate domain knowledge.
+
+### Learning goals
+- Be able to identify 2 or more functions that are candidates for abstraction.
+- Be able to design an abstract function starting with 2 or more highly repetitive functions (or expressions).
+- Be able to design an abstract fold function from a template.
+- Be able to write signatures for abstract functions.
+- Be able to write signatures that use type parameters.
+- Be able to identify a function which would benefit from using a built-in abstract function
+- Be able to use built-in abstract functions
+
 ## 10a. Generative Recursion
 
 ## 10b. Search
