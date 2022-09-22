@@ -89,6 +89,18 @@ Extending on the steps to follow above, we append few more steps:
 - develop appropriate signature for the abs. func.; in many cases the signature will include type parameters
 - rewrite the body of the original func. to call the abs. func.
 
+### Closure
+
+Function that closes over something.
+
+For example, `wider-than?` closes over the parameter `w` from the outer scope.
+```
+(define (wider-than-only w loi)
+  (local [(define (wider-than? i)
+            (> (image-width i) w))]
+  (filter wider-than? loi)))
+```
+
 ## 10a. Generative Recursion
 
 ## 10b. Search
