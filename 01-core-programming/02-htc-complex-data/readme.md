@@ -103,6 +103,14 @@ For example, `wider-than?` closes over the parameter `w` from the outer scope.
 
 ## 10a. Generative Recursion
 
+In Generative recursion each recursive call must receive an argument that is in some way "closer to the base case"; this is
+wht guarantees that recursion will eventually terminate.
+
+### Learning goals:
+- identify whether a recursive function uses structural or generative recursion
+- formulate a termination argument for a recursive function
+- design functions that use generative recursion
+
 ## 10b. Search
 
 ## 11. Accumulators
